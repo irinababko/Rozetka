@@ -1,0 +1,65 @@
+// Colors
+
+.u-color-white {
+  color: var(--white);
+}
+
+.u-color-gray-secondary {
+  color: var(--gray-text-secondary);
+}
+
+.u-color-gray {
+  color: var(--gray);
+}
+
+.u-color-gray-blue {
+  color: var(--gray-blue);
+}
+
+// Text Align
+
+.u-text-center {
+  text-align: center;
+
+  &-sm {
+    @include media-breakpoint-up(sm) {
+      text-align: center;
+    }
+  }
+}
+
+.u-text-left {
+  text-align: left;
+}
+
+.u-text-right {
+  text-align: right;
+}
+
+// Font Weight
+
+.u-text-semi-bold {
+  font-weight: var(--semi-bold);
+}
+
+.u-text-bold {
+  font-weight: var(--bold);
+}
+
+.u-text-extra-bold {
+  font-weight: var(--extra-bold);
+}
+
+.u-text-decorated {
+  text-shadow: 2px 2px var(--pink);
+}
+
+.u-text-uppercase {
+  text-transform: uppercase;
+}
+
+// Font Size
+
+.u-text-sm {
+  font-size: 14px;
+}
